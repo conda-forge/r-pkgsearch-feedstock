@@ -1,4 +1,4 @@
-{% set version = "3.1.4" %}
+{% set version = "3.1.5" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pkgsearch_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pkgsearch/pkgsearch_{{ version }}.tar.gz
-  sha256: 55165be31d04a2e7c88f0a560158f6c8ff0adceeb56e63ecfcd8d72136af1e02
+  sha256: d147502b813d7d4edb18d8c3a76901f332763e5c044c47cfb2f170f93a70d296
 
 build:
   number: 0
